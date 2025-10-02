@@ -1,0 +1,29 @@
+[project]
+name = "isca-analysis"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Helena Reid",email = "helena.reid@metoffice.gov.uk"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy (>=2.3.3,<3.0.0)",
+    "matplotlib (>=3.10.6,<4.0.0)",
+    "netcdf4 (>=1.7.2,<2.0.0)"
+]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.9.0"
+isort = "^6.0.1"
+
+[[tool.poetry.source]]
+name = "mo-pypi"
+url = "https://metoffice.jfrog.io/metoffice/api/pypi/pypi/simple"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
