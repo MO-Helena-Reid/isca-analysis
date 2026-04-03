@@ -1,0 +1,1 @@
+use `ncrcat input1 input2 ... inputn output` 
