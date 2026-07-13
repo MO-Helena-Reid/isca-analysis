@@ -1,1 +1,3 @@
-use `ncrcat input1 input2 ... inputn output` 
+# Isca analysis
+
+A project for analysing output from some experiments using the Isca global climate model.
