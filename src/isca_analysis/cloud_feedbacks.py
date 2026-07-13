@@ -10,7 +10,7 @@ import iris.quickplot as qplt
 def main():
     print("running analysis")
     root_dir = Path(__file__).parents[2]
-    out_dir = root_dir.joinpath("out")
+    out_dir = root_dir.joinpath("data")
     print(out_dir)
     feedbacks = {}
     for filename in out_dir.iterdir():
