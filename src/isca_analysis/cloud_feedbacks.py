@@ -1,3 +1,4 @@
+#  (C) Crown Copyright, Met Office, 2026
 from pathlib import Path
 import iris
 import numpy as np
