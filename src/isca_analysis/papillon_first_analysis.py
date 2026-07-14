@@ -12,9 +12,10 @@ def papillon_first_analysis(ctrl_filename, expt_filename):
     print("running analysis")
     root_dir = Path(__file__).parents[2]
     out_dir = root_dir.joinpath("data")
+    isca_means_dir = out_dir.joinpath("isca_means")
     # plots_dir = out_dir.joinpath("plots","pdc")
-    expt_file = out_dir.joinpath(expt_filename)
-    ctrl_file = out_dir.joinpath(ctrl_filename)
+    expt_file = isca_means_dir.joinpath(expt_filename)
+    ctrl_file = isca_means_dir.joinpath(ctrl_filename)
     plots_dir = out_dir.joinpath("plots","pdc",f"{expt_file.stem}vs_{ctrl_file.stem}")
     plots_dir.mkdir(exist_ok=True)
     print(out_dir)
@@ -352,7 +353,8 @@ if __name__ == "__main__":
         # "papillon_control_with_clouds_0036.nc",
         # "papillon_control_with_clouds_0048.nc",
         # "papillon_control_0240.nc",
-        "papillon_vertical_1km_0120.nc",
+        # "papillon_vertical_1km_0120.nc",
+        "papillon_na_1_0_0060.nc",
         # "papillon_na_1_0_0048.nc",
     ]
     exp_files = [
@@ -369,9 +371,10 @@ if __name__ == "__main__":
         # "papillon_smith_ras_0120.nc",
         # "papillon_control_slingo_0120.nc",
         # "papillon_vertical_1km_0120.nc",
-        "papillon_vertical_1km_0240.nc",
+        # "papillon_vertical_1km_0240.nc",
         # "papillon_ml_0048.nc",
-        # "papillon_ml_0060.nc",
+        "papillon_ml_0060.nc",
+        # "papillon_na_1_0_0060.nc",
                   ]
     for file1 in control_files:
         for file2 in exp_files:
