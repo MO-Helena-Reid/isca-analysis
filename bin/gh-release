@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [[ -z ${1:-} ]]; then
+  echo "usage: $0 <tag>"
+  exit 1
+fi
+
+tar -cJf plots.tar.xz data/plots
+trap 'rm plots.tar.xz' QUIT
+gh release create "$1" plots.tar.xz
