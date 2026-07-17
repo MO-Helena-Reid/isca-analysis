@@ -425,47 +425,22 @@ def make_precip_plots(plots_dir, prec_clim, prec_ctrl, prec_expt, ignore_time_co
 
 
 if __name__ == "__main__":
-    control_files = [
-        # "papillon_control_with_clouds_120.nc",
-        "papillon_control_smith_0120.nc",
-        # "papillon_control_with_clouds_0060.nc",
-        # "papillon_control_smith_ras_0120.nc",
-        # "papillon_control_with_clouds_0036.nc",
-        # "papillon_control_with_clouds_0048.nc",
-        # "papillon_control_0240.nc",
-        # "papillon_vertical_1km_0120.nc",
-        # "papillon_na_1_0_0060.nc",
-        # "papillon_na_1_0_0048.nc",
-    ]
-    exp_files = [
-                    "papillon_random_vertical_random_time_120.nc",
-                    "papillon_random_vertical_3h_time_120.nc",
-                    "papillon_random_vertical_120.nc",
-                    "papillon_uniform_vertical_120.nc",
-                    "papillon_na_2_0_120.nc",
-                    "papillon_na_1_0_120.nc",
-                    "papillon_na_0_1_120.nc",
-                    "papillon_control_smith_0120.nc",
-                    "papillon_control_ras_0120.nc",
-                    "papillon_control_smith_ras_0120.nc",
-                    # "papillon_ml_0036.nc",
-                    "papillon_smith_ras_0120.nc",
-                    "papillon_control_slingo_0120.nc",
-                    "papillon_vertical_1km_0120.nc",
-                    # "papillon_vertical_1km_0240.nc",
-                    # "papillon_ml_0048.nc",
-                    # "papillon_ml_0060.nc",
-                    # "papillon_na_1_0_0060.nc",
-                  ]
     files = [
         # ["papillon_control_smith_0120.nc","papillon_smith_0120.nc"],
         # ["papillon_control_smith_ras_0120.nc","papillon_smith_ras_0120.nc"],
         # ["papillon_control_ras_0120.nc","papillon_ras_0120.nc"],
         # ["papillon_control_with_clouds_120.nc","papillon_ras_0120.nc"],
-        ["papillon_control_120.nc","papillon_control_0240.nc"],
-        ["papillon_control_0240.nc","papillon_vertical_1km_0240.nc"],
-        ["papillon_control_with_clouds_0060.nc","papillon_ml_0060.nc"],
-        ["papillon_na_1_0_0060.nc","papillon_ml_0060.nc"],
+        # ["papillon_control_with_clouds_0060.nc", "papillon_na_1_0_0060.nc",],
+        # ["papillon_na_0_1_0060.nc", "papillon_ml_0060.nc",],
+        # ["papillon_control_with_clouds_0060.nc", "papillon_na_0_1_0060.nc"],
+        ["papillon_control_with_clouds_120.nc", "papillon_control_xr96_eis_ras_0120.nc"],
+        ["papillon_control_ras_0120.nc", "papillon_control_xr96_eis_ras_0120.nc"],
+        # ["papillon_control_xr96_eis_ras_0120.nc", "papillon_xr96_eis_ras_0120.nc"],
+        # ["papillon_control_ras_0120.nc", "papillon_ras_0120.nc"],
+        # ["papillon_control_120.nc","papillon_control_0240.nc"],
+        # ["papillon_control_0240.nc","papillon_vertical_1km_0240.nc"],
+        # ["papillon_control_with_clouds_0060.nc","papillon_ml_0060.nc"],
+        # ["papillon_na_1_0_0060.nc","papillon_ml_0060.nc"],
     ]
     for file1, file2 in files:
             papillon_first_analysis(ctrl_filename=file1, expt_filename=file2)
