@@ -23,6 +23,12 @@ def papillon_first_analysis(
     # plots_dir = out_dir.joinpath("plots","pdc")
     expt_file = isca_means_dir.joinpath(expt_filename)
     ctrl_file = isca_means_dir.joinpath(ctrl_filename)
+    if not expt_file.exists():
+        print(f"skipping non-existent file {expt_file}")
+        return
+    if  not ctrl_file.exists():
+        print(f"skipping non-existent file {ctrl_file}")
+        return
     plots_dir = out_dir.joinpath("plots", "pdc", f"{expt_file.stem}vs_{ctrl_file.stem}")
     zonal_plots_dir = plots_dir.joinpath("3d_fields")
     plots_dir.mkdir(exist_ok=True)
@@ -933,7 +939,8 @@ if __name__ == "__main__":
         ["papillon_control_with_clouds_0060.nc", "epe023_0060.nc"],
         ["papillon_control_with_clouds_0060.nc", "epe024_0060.nc"],
     ]
-    for file1, file2 in files:
+    epe_files = [[f"epe{i:03d}_0060.nc",f"epe_papillon{i:03d}_0060.nc"] for i in range(25)]
+    for file1, file2 in epe_files:
         papillon_first_analysis(
             ctrl_filename=file1,
             expt_filename=file2,

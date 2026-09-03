@@ -1,0 +1,621 @@
+[
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 14.0,
+            "reff_ice": 25.0,
+            "do_add_stratocumulus": false
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.95,
+            "rhc700": 0.7,
+            "rhc200": 0.30000000000000004
+        },
+        "ras_nml": {
+            "rh_trig": 0.7,
+            "alm_min": 0.0
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 10800.0,
+            "rhbm": 0.7
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "SIMPLE_BETTS_MILLER"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 14.0,
+            "reff_ice": 25.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.95,
+            "rhc700": 0.7,
+            "rhc200": 0.30000000000000004
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "EIS_WOOD"
+        },
+        "ras_nml": {
+            "rh_trig": 0.0,
+            "alm_min": 0.25
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 3600.0,
+            "rhbm": 0.8
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "RAS"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 12.0,
+            "reff_ice": 21.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.95,
+            "rhc700": 0.7,
+            "rhc200": 0.30000000000000004
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "SLINGO"
+        },
+        "ras_nml": {
+            "rh_trig": 0.0,
+            "alm_min": 0.25
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 3600.0,
+            "rhbm": 0.8
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "SIMPLE_BETTS_MILLER"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 14.0,
+            "reff_ice": 25.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.95,
+            "rhc700": 0.7,
+            "rhc200": 0.30000000000000004
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "EIS_WOOD"
+        },
+        "ras_nml": {
+            "rh_trig": 0.35,
+            "alm_min": 0.5
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 7200.0,
+            "rhbm": 0.9
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "RAS"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 16.0,
+            "reff_ice": 29.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.95,
+            "rhc700": 0.7,
+            "rhc200": 0.30000000000000004
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "PARK_ELF"
+        },
+        "ras_nml": {
+            "rh_trig": 0.35,
+            "alm_min": 0.25
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 7200.0,
+            "rhbm": 0.8
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "RAS"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 12.0,
+            "reff_ice": 21.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.999,
+            "rhc700": 0.8,
+            "rhc200": 0.4
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "EIS_WOOD"
+        },
+        "ras_nml": {
+            "rh_trig": 0.0,
+            "alm_min": 0.5
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 3600.0,
+            "rhbm": 0.9
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "SIMPLE_BETTS_MILLER"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 14.0,
+            "reff_ice": 25.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.999,
+            "rhc700": 0.8,
+            "rhc200": 0.4
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "SLINGO"
+        },
+        "ras_nml": {
+            "rh_trig": 0.35,
+            "alm_min": 0.5
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 7200.0,
+            "rhbm": 0.9
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "SIMPLE_BETTS_MILLER"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 12.0,
+            "reff_ice": 21.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.999,
+            "rhc700": 0.8,
+            "rhc200": 0.4
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "EIS_WOOD"
+        },
+        "ras_nml": {
+            "rh_trig": 0.35,
+            "alm_min": 0.0
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 7200.0,
+            "rhbm": 0.7
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "RAS"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 14.0,
+            "reff_ice": 25.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.999,
+            "rhc700": 0.8,
+            "rhc200": 0.4
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "ECTEI"
+        },
+        "ras_nml": {
+            "rh_trig": 0.7,
+            "alm_min": 0.25
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 10800.0,
+            "rhbm": 0.8
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "SIMPLE_BETTS_MILLER"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 16.0,
+            "reff_ice": 29.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.999,
+            "rhc700": 0.8,
+            "rhc200": 0.4
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "PARK_ELF"
+        },
+        "ras_nml": {
+            "rh_trig": 0.35,
+            "alm_min": 0.0
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 7200.0,
+            "rhbm": 0.7
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "RAS"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 14.0,
+            "reff_ice": 25.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.95,
+            "rhc700": 0.7,
+            "rhc200": 0.30000000000000004
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "SLINGO"
+        },
+        "ras_nml": {
+            "rh_trig": 0.35,
+            "alm_min": 0.25
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 7200.0,
+            "rhbm": 0.8
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "RAS"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 14.0,
+            "reff_ice": 25.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.95,
+            "rhc700": 0.7,
+            "rhc200": 0.30000000000000004
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "SLINGO"
+        },
+        "ras_nml": {
+            "rh_trig": 0.7,
+            "alm_min": 0.25
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 10800.0,
+            "rhbm": 0.8
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "RAS"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 12.0,
+            "reff_ice": 21.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.95,
+            "rhc700": 0.7,
+            "rhc200": 0.30000000000000004
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "ECTEI"
+        },
+        "ras_nml": {
+            "rh_trig": 0.35,
+            "alm_min": 0.5
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 7200.0,
+            "rhbm": 0.9
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "SIMPLE_BETTS_MILLER"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 14.0,
+            "reff_ice": 25.0,
+            "do_add_stratocumulus": false
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.901,
+            "rhc700": 0.6,
+            "rhc200": 0.2
+        },
+        "ras_nml": {
+            "rh_trig": 0.0,
+            "alm_min": 0.5
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 3600.0,
+            "rhbm": 0.9
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "RAS"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 16.0,
+            "reff_ice": 29.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.95,
+            "rhc700": 0.7,
+            "rhc200": 0.30000000000000004
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "ECTEI"
+        },
+        "ras_nml": {
+            "rh_trig": 0.35,
+            "alm_min": 0.0
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 7200.0,
+            "rhbm": 0.7
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "SIMPLE_BETTS_MILLER"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 14.0,
+            "reff_ice": 25.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.901,
+            "rhc700": 0.6,
+            "rhc200": 0.2
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "EIS_WOOD"
+        },
+        "ras_nml": {
+            "rh_trig": 0.35,
+            "alm_min": 0.25
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 7200.0,
+            "rhbm": 0.8
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "SIMPLE_BETTS_MILLER"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 14.0,
+            "reff_ice": 25.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.901,
+            "rhc700": 0.6,
+            "rhc200": 0.2
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "PARK_ELF"
+        },
+        "ras_nml": {
+            "rh_trig": 0.0,
+            "alm_min": 0.0
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 3600.0,
+            "rhbm": 0.7
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "RAS"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 12.0,
+            "reff_ice": 21.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.901,
+            "rhc700": 0.6,
+            "rhc200": 0.2
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "PARK_ELF"
+        },
+        "ras_nml": {
+            "rh_trig": 0.35,
+            "alm_min": 0.25
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 7200.0,
+            "rhbm": 0.8
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "SIMPLE_BETTS_MILLER"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 16.0,
+            "reff_ice": 29.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.901,
+            "rhc700": 0.6,
+            "rhc200": 0.2
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "ECTEI"
+        },
+        "ras_nml": {
+            "rh_trig": 0.35,
+            "alm_min": 0.25
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 7200.0,
+            "rhbm": 0.8
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "SIMPLE_BETTS_MILLER"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 16.0,
+            "reff_ice": 29.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.901,
+            "rhc700": 0.6,
+            "rhc200": 0.2
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "LTS"
+        },
+        "ras_nml": {
+            "rh_trig": 0.7,
+            "alm_min": 0.5
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 10800.0,
+            "rhbm": 0.9
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "RAS"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 14.0,
+            "reff_ice": 25.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.95,
+            "rhc700": 0.7,
+            "rhc200": 0.30000000000000004
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "ECTEI"
+        },
+        "ras_nml": {
+            "rh_trig": 0.35,
+            "alm_min": 0.25
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 7200.0,
+            "rhbm": 0.8
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "RAS"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 14.0,
+            "reff_ice": 25.0,
+            "do_add_stratocumulus": false
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.95,
+            "rhc700": 0.7,
+            "rhc200": 0.30000000000000004
+        },
+        "ras_nml": {
+            "rh_trig": 0.7,
+            "alm_min": 0.5
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 10800.0,
+            "rhbm": 0.9
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "SIMPLE_BETTS_MILLER"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 12.0,
+            "reff_ice": 21.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.999,
+            "rhc700": 0.8,
+            "rhc200": 0.4
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "ECTEI"
+        },
+        "ras_nml": {
+            "rh_trig": 0.7,
+            "alm_min": 0.25
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 10800.0,
+            "rhbm": 0.8
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "RAS"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 14.0,
+            "reff_ice": 25.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.95,
+            "rhc700": 0.7,
+            "rhc200": 0.30000000000000004
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "LTS"
+        },
+        "ras_nml": {
+            "rh_trig": 0.35,
+            "alm_min": 0.0
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 7200.0,
+            "rhbm": 0.7
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "SIMPLE_BETTS_MILLER"
+        }
+    },
+    {
+        "cloud_simple_nml": {
+            "reff_liq": 16.0,
+            "reff_ice": 29.0
+        },
+        "large_scale_cloud_nml": {
+            "rhcsfc": 0.95,
+            "rhc700": 0.7,
+            "rhc200": 0.30000000000000004
+        },
+        "marine_strat_cloud_nml": {
+            "sc_diag_method": "SLINGO"
+        },
+        "ras_nml": {
+            "rh_trig": 0.0,
+            "alm_min": 0.25
+        },
+        "qe_moist_convection_nml": {
+            "tau_bm": 3600.0,
+            "rhbm": 0.8
+        },
+        "idealized_moist_phys_nml": {
+            "convection_scheme": "SIMPLE_BETTS_MILLER"
+        }
+    }
+]
