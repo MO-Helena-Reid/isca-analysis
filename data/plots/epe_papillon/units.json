@@ -1,0 +1,5 @@
+{
+ "precipitation": "mm / yr",
+ "soc_olr": "watts/m2",
+ "soc_toa_sw_up": "watts/m2"
+}

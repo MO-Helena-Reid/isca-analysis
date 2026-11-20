@@ -1,0 +1,67 @@
+{
+  "teracota_control_ras_0120 v teracota_control_sbm_0120": {
+    "precipitation": 0.011218107806697967,
+    "soc_olr": 0.010190986331606294,
+    "soc_toa_sw_up": 0.010574361747428096
+  },
+  "teracota_control_ras_0120 v teracota_ar1_1h_0120": {
+    "precipitation": 0.011587427379598659,
+    "soc_olr": 0.01019757574223076,
+    "soc_toa_sw_up": 0.010628122869560969
+  },
+  "teracota_control_sbm_0120 v teracota_ar1_1h_0120": {
+    "precipitation": 0.01030981586647851,
+    "soc_olr": 0.010001892414010043,
+    "soc_toa_sw_up": 0.01012588360055509
+  },
+  "teracota_control_ras_0120 v teracota_ar1_3h_0120": {
+    "precipitation": 0.011397754050745121,
+    "soc_olr": 0.010192656515738576,
+    "soc_toa_sw_up": 0.010584011249409
+  },
+  "teracota_control_sbm_0120 v teracota_ar1_3h_0120": {
+    "precipitation": 0.010054212366738265,
+    "soc_olr": 0.009998543804913954,
+    "soc_toa_sw_up": 0.010176142629393922
+  },
+  "teracota_control_ras_0120 v teracota_ar1_6h_0120": {
+    "precipitation": 0.011074410397627861,
+    "soc_olr": 0.010147078369943233,
+    "soc_toa_sw_up": 0.010439124209815954
+  },
+  "teracota_control_sbm_0120 v teracota_ar1_6h_0120": {
+    "precipitation": 0.010104516973577901,
+    "soc_olr": 0.009999827829905019,
+    "soc_toa_sw_up": 0.010149643208259451
+  },
+  "teracota_control_ras_0120 v teracota_ar1_9h_0120": {
+    "precipitation": 0.011082942383164663,
+    "soc_olr": 0.010063709223580183,
+    "soc_toa_sw_up": 0.01029157722651982
+  },
+  "teracota_control_sbm_0120 v teracota_ar1_9h_0120": {
+    "precipitation": 0.01091504234128577,
+    "soc_olr": 0.010037054848103914,
+    "soc_toa_sw_up": 0.010155171626137539
+  },
+  "teracota_control_ras_0120 v teracota_ar1_11h_0120": {
+    "precipitation": 0.010667622830417597,
+    "soc_olr": 0.010025608254183199,
+    "soc_toa_sw_up": 0.010147846400381935
+  },
+  "teracota_control_sbm_0120 v teracota_ar1_11h_0120": {
+    "precipitation": 0.01119100906122232,
+    "soc_olr": 0.010077965157620768,
+    "soc_toa_sw_up": 0.01019872539938387
+  },
+  "teracota_control_ras_0120 v teracota_ar1_27h_0120": {
+    "precipitation": 0.01026355238599486,
+    "soc_olr": 0.010019481779463962,
+    "soc_toa_sw_up": 0.010087111542576174
+  },
+  "teracota_control_sbm_0120 v teracota_ar1_27h_0120": {
+    "precipitation": 0.01100586011882828,
+    "soc_olr": 0.010083295247798576,
+    "soc_toa_sw_up": 0.01023120638337101
+  }
+}
